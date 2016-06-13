@@ -54,7 +54,7 @@ void mark(int event, int x, int y, int flags, void* userdata)
 		cout << "Press any key for next image" << endl;
 		// generate text file of points                                                                                                                                                                                                                                                                                                                                                   
 		ofstream myfile;
-		myfile.open("F:\\IDM\\compressed\\implement-Xiong-lip-features\\inputVids\\landmarks-img"+to_string(frame)+".txt");
+		myfile.open("F:\\landmark-points\\landmarks-img"+to_string(frame)+".txt");
 		myfile << "n_points:  "<<to_string(points)<<" \n";
 		myfile << "{ \n";
 		for (int i = 1; i <= points;i++)
@@ -75,7 +75,7 @@ int main(int argc, char** argv)
 {
 	VideoCapture cap;
 	//Input type-1 giving direct video as input
-	cap.open("F:\\IDM\\compressed\\implement-Xiong-lip-features\\inputVids\\a1.mpg");
+	cap.open("F:\\inputVids\\a1.mpg");
 	//Input type -2 giving folder storing images as input
 	/*
 	use glob function of opencv
