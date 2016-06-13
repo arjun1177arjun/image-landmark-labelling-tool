@@ -24,4 +24,21 @@ Here the text files will be stored in "F:\\landmark-points\\" folder.
 
 ### Output
 
-![Image](image-landmark-labelling-tool/Screenshot (275).png?raw=true "Output Text file")
+![](https://raw.githubusercontent.com/arjun1177arjun/image-landmark-labelling-tool/master/Screenshot%20(276).png?raw=true "Marking Points")
+
+![](https://raw.githubusercontent.com/arjun1177arjun/image-landmark-labelling-tool/master/Screenshot%20(275).png?raw=true "Output Text file")
+
+### Prerequisites
+
+The code requires Microsoft Visual Studio configured to work with OpenCV 2.0 or higher.
+If you encounter difficulty configuring OpenCV with Visual studio check the following videos
+
+To setup environment variables in windows
+>https://www.youtube.com/watch?v=EcFtefHEEII
+
+To configure with Visual Studio
+>https://www.youtube.com/watch?v=tHX3MLzwF6Q
+
+###
+
+This is my first proper repo on github. Feel free to comment if I missed something.
